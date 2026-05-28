@@ -8,7 +8,7 @@ import os
 
 print("=== TRAINING GESTURE MODEL ===")
 
-df = pd.read_csv('data/gesture_data.csv', header=None)
+df = pd.read_csv('data/gesture_data_kaggle.csv', header=None)
 X = df.iloc[:, 1:].values
 y = df.iloc[:, 0].values
 
